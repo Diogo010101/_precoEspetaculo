@@ -15,7 +15,7 @@ void main() {
   double area = pi + raio * raio;
   double volume = (3 / 4) * pi * raio;
 
-  print("Comprimento da circunferência: ${circun.toStringAsPrecision(2)}");
-  print("Área: ${area.toStringAsPrecision(2)}");
-  print("colume: ${volume.toStringAsPrecision(2)}");
+  print("Comprimento da circunferência: ${circun.toStringAsFixed(2)}");
+  print("Área: ${area.toStringAsFixed(2)}");
+  print("colume: ${volume.toStringAsFixed(2)}");
 }

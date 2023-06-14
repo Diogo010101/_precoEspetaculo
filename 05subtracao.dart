@@ -14,5 +14,5 @@ void main() {
   double resultado = primeiro - segundo;
 
   print(
-      "O resultado da subtração do primeiro número pelo segundo número é ${resultado.toStringAsPrecision(2)}");
+      "O resultado da subtração do primeiro número pelo segundo número é ${resultado.toStringAsFixed(2)}");
 }

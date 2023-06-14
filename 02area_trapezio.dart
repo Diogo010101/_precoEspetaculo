@@ -17,5 +17,5 @@ void main() {
 
   double area = ((baseMaior + baseMenor) * altura) / 2;
 
-  print("A área do triangulo é ${area.toStringAsPrecision(2)}");
+  print("A área do triangulo é ${area.toStringAsFixed(2)}");
 }

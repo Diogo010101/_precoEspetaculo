@@ -20,5 +20,5 @@ void main() {
   double resultado = primeiro * segundo * terceiro;
 
   print(
-      "O resultado da multiplicação entre os três números é ${resultado.toStringAsPrecision(2)}");
+      "O resultado da multiplicação entre os três números é ${resultado.toStringAsFixed(2)}");
 }

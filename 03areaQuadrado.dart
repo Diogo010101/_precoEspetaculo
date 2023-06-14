@@ -9,5 +9,5 @@ void main() {
   double lado = double.parse(inputLado!);
 
   double area = lado * lado;
-  print("A área do quadrado é ${area.toStringAsPrecision(2)}");
+  print("A área do quadrado é ${area.toStringAsFixed(2)}");
 }
